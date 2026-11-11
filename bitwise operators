@@ -1,0 +1,21 @@
+bitwise operators
+package kanishka;
+import java.util.Scanner;
+
+public class bitwise {
+
+	public static void main(String[] args) {
+		Scanner Sc=new Scanner(System.in);
+		System.out.println("Enter a:");
+		int a=Sc.nextInt();
+		System.out.println("Enter b:");
+		int b=Sc.nextInt();
+		System.out.println("AND:"+(a&b));
+		System.out.println("OR:"+(a|b));
+		System.out.println("XOR:"+(a^b));
+		System.out.println("Negation:"+(a));
+		System.out.println("Negation:"+(b));
+		
+	}
+
+}
